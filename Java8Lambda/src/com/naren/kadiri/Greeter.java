@@ -9,6 +9,9 @@ public class Greeter {
 	public static void main(String[] args) {
 		Greeter g = new Greeter();
 		HelloWorldGreeting hwg = new HelloWorldGreeting();
-		g.greet(hwg);
+		// g.greet(hwg);
+
+		MyClass myLambdaExpression = () -> System.out.println("Hello World!");
+		myLambdaExpression.foo();
 	}
 }
