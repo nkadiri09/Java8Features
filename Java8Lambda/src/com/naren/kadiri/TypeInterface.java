@@ -9,7 +9,7 @@ public class TypeInterface {
 	}
 
 	public static void printFunction(StringLambda sl) {
-		System.out.println(sl.StringLength("Hello world !"));
+		System.out.println(sl.StringLength("Hello world!"));
 
 	}
 
