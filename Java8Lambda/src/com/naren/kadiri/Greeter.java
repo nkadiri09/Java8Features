@@ -13,5 +13,13 @@ public class Greeter {
 
 		MyClass myLambdaExpression = () -> System.out.println("Hello World!");
 		myLambdaExpression.foo();
+
+		Greeting greeting = new Greeting() {
+			public void perform() {
+				System.out.println("anotehr Helloworld");
+			}
+		};
+
+		greeting.perform();
 	}
 }
